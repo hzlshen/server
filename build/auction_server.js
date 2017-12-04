@@ -28,6 +28,9 @@ app.get('/', function (req, res) {
 app.get("/products", function (req, res) {
     res.json(products);
 });
+app.get("/product/:id", function (req, res) {
+    res.json(products.find(function (product) { return product.id == req.params.id; }));
+});
 var server = app.listen(8000, "localhost", function () {
     console.log("服务器已启动，地址是：http://localhost:8000");
 });
