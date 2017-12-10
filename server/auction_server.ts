@@ -46,4 +46,15 @@ const server = app.listen(8000,"localhost",()=>{
 const wsServer = new Server({port:8085});
 wsServer.on("connection",websocket=>{
     websocket.send("这个消息是服务器主动推送的");
+    websocket.on("message",message=>{
+        console.log("接收到message"+message);
+    })
 })
+
+setInterval(()=>{
+    if(wsServer.clients){
+        wsServer.clients.forEach(client=>{
+            client.send("这是定时发送的")
+        })
+    }
+},2000);

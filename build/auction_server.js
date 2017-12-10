@@ -38,4 +38,14 @@ var server = app.listen(8000, "localhost", function () {
 var wsServer = new ws_1.Server({ port: 8085 });
 wsServer.on("connection", function (websocket) {
     websocket.send("这个消息是服务器主动推送的");
+    websocket.on("message", function (message) {
+        console.log("接收到message" + message);
+    });
 });
+setInterval(function () {
+    if (wsServer.clients) {
+        wsServer.clients.forEach(function (client) {
+            client.send("这是定时发送的");
+        });
+    }
+}, 2000);
