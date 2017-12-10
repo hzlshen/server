@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47e3a7c-59a0-486f-a2ec-8fa583bfd48c" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/auction_server.js" afterPath="$PROJECT_DIR$/build/auction_server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/auction_server.ts" afterPath="$PROJECT_DIR$/server/auction_server.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,9 +36,11 @@
       <file leaf-file-name="auction_server.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/auction_server.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="313">
+              <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,13 +48,9 @@
       <file leaf-file-name="auction_server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/auction_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <marker date="1512403709587" expanded="true" signature="977:1011" ph="{...}" />
-                <marker date="1512403709587" expanded="true" signature="1055:1082" ph="{...}" />
-                <marker date="1512403709587" expanded="true" signature="1279:1335" ph="{...}" />
-              </folding>
+            <state relative-caret-position="638">
+              <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,10 +58,13 @@
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8184">
-              <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+            <state relative-caret-position="8294">
+              <caret line="386" column="16" lean-forward="false" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
               <folding>
-                <marker date="1512321282308" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+                <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+                <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+                <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+                <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -99,8 +103,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="391" />
-    <option name="y" value="25" />
+    <option name="x" value="879" />
+    <option name="y" value="28" />
     <option name="width" value="1365" />
     <option name="height" value="928" />
   </component>
@@ -122,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -144,16 +149,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/angular-cli-mvc/client" />
     <property name="nodejs_interpreter_path" value="E:/Program Files/node" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,13 +239,18 @@
       <updated>1512315070752</updated>
       <workItem from="1512315072023" duration="4351000" />
       <workItem from="1512400130124" duration="1698000" />
-      <workItem from="1512402318831" duration="1463000" />
+      <workItem from="1512402318831" duration="1495000" />
+      <workItem from="1512487248183" duration="1231000" />
+      <workItem from="1512489176122" duration="967000" />
+      <workItem from="1512490417378" duration="724000" />
+      <workItem from="1512909811575" duration="44000" />
+      <workItem from="1512910029286" duration="1123000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7512000" />
+    <option name="totallyTimeSpent" value="11633000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -252,7 +262,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="391" y="25" width="1365" height="928" extended-state="0" />
+    <frame x="879" y="28" width="1365" height="928" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -263,8 +273,8 @@
       <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49740162" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41919193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41919193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15738678" sideWeight="0.5065913" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -297,10 +307,166 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/auction_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8184">
+          <caret line="372" column="16" lean-forward="false" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+          <folding>
+            <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/auction_server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="594">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/hello_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/auction_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8184">
+          <caret line="372" column="16" lean-forward="false" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+          <folding>
+            <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/auction_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/hello_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/auction_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8184">
+          <caret line="372" column="16" lean-forward="false" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+          <folding>
+            <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/auction_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/hello_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/auction_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8184">
+          <caret line="372" column="16" lean-forward="false" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+          <folding>
+            <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/auction_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/hello_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/auction_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -310,7 +476,51 @@
         <state relative-caret-position="8184">
           <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
           <folding>
-            <marker date="1512321282308" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/auction_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/hello_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/auction_server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8184">
+          <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+          <folding>
+            <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -319,11 +529,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <marker date="1512403709587" expanded="true" signature="977:1011" ph="{...}" />
-            <marker date="1512403709587" expanded="true" signature="1055:1082" ph="{...}" />
-            <marker date="1512403709587" expanded="true" signature="1279:1335" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -331,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -355,7 +560,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,7 +571,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1512321282308" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -373,11 +583,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <marker date="1512403709587" expanded="true" signature="977:1011" ph="{...}" />
-            <marker date="1512403709587" expanded="true" signature="1055:1082" ph="{...}" />
-            <marker date="1512403709587" expanded="true" signature="1279:1335" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -397,10 +603,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8184">
-          <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+        <state relative-caret-position="8294">
+          <caret line="386" column="16" lean-forward="false" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="16" />
           <folding>
-            <marker date="1512321282308" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2455:2466" ph="{&quot;@types/events&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2811:3066" ph="{&quot;version&quot;: &quot;1.3.4&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="2989:3060" ph="{&quot;mime-types&quot;: &quot;2.1.17&quot;...}" />
+            <marker date="1512914727191" expanded="true" signature="3089:3265" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -423,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -431,6 +639,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/auction_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -443,23 +659,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/auction_server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <marker date="1512403709587" expanded="true" signature="977:1011" ph="{...}" />
-            <marker date="1512403709587" expanded="true" signature="1055:1082" ph="{...}" />
-            <marker date="1512403709587" expanded="true" signature="1279:1335" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/auction_server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="313">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

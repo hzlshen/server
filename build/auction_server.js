@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var express = require("express");
+var ws_1 = require("ws");
 var app = express();
 var Product = (function () {
     function Product(id, title, price, rating, desc, categories) {
@@ -25,12 +26,16 @@ var products = [
 app.get('/', function (req, res) {
     res.send("Hello Express");
 });
-app.get("/products", function (req, res) {
+app.get("/api/products", function (req, res) {
     res.json(products);
 });
-app.get("/product/:id", function (req, res) {
+app.get("/api/product/:id", function (req, res) {
     res.json(products.find(function (product) { return product.id == req.params.id; }));
 });
 var server = app.listen(8000, "localhost", function () {
     console.log("服务器已启动，地址是：http://localhost:8000");
+});
+var wsServer = new ws_1.Server({ port: 8085 });
+wsServer.on("connection", function (websocket) {
+    websocket.send("这个消息是服务器主动推送的");
 });

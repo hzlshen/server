@@ -20,6 +20,10 @@
   "dependencies": {
     "@types/express": "^4.0.39",
     "@types/node": "^8.0.54",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "ws": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^3.2.1"
   }
 }
